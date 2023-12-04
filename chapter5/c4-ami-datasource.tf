@@ -1,8 +1,8 @@
 # Get latest AMI ID for Amazon Linux
 
 data "aws_ami" "amzlinux2023" {
-  most_recent      = true
-  owners           = ["amazon"]
+  most_recent = true
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
